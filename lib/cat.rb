@@ -1,10 +1,12 @@
 class Cat
-  attr_accessor :name, :genre
-  cats=[]
- 
-  def initialize(name, genre) 
+  # code goes here
+end 
+  attr_reader :name
+  attr_accessor :mood
+
+  def initialize(name, mood = "nervous")
+    @mood = mood
     @name = name
-    @genre = genre
   end
- 
 end
+
